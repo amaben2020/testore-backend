@@ -1,3 +1,6 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "env": {
+    "DATABASE_URL": "postgresql://neondb_owner:npg_F82ukohdXraz@ep-nameless-mountain-a40whqli-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require"
+  }
 }
